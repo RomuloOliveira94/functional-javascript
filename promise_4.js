@@ -8,7 +8,7 @@ function generateNumbers(min, max, time) {
   });
 }
 
-//more than 1 promise
+//change comment
 const generateVariousNumbers = () => {
   return Promise.all([
     generateNumbers(1, 50, 5000),
